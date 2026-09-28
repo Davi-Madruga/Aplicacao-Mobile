@@ -10,8 +10,6 @@
     android:padding="24dp"
     android:background="#F5F7FA"
     tools:context=".Disciplinas">
-
-    <!-- BOTÃO VOLTAR -->
     <Button
         android:id="@+id/btnVoltar"
         android:layout_width="wrap_content"
@@ -21,8 +19,6 @@
         android:layout_marginTop="10dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <!-- TÍTULO -->
     <TextView
         android:id="@+id/txtTitulo"
         android:layout_width="0dp"
@@ -36,8 +32,6 @@
         app:layout_constraintTop_toBottomOf="@id/btnVoltar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
-    <!-- LISTA DE DISCIPLINAS -->
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -51,6 +45,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="• Programação"
+            android:id="@+id/programacao"
+            android:clickable="true" android:focusable="true" android:minHeight="48dp" android:background="?attr/selectableItemBackground"
             android:textColor="#333333"
             android:textSize="20sp"
             android:padding="12dp" />
@@ -59,6 +55,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="• Banco de Dados"
+            android:id="@+id/bancoDados"
+            android:clickable="true" android:focusable="true" android:minHeight="48dp" android:background="?attr/selectableItemBackground"
             android:textColor="#333333"
             android:textSize="20sp"
             android:padding="12dp" />
@@ -67,6 +65,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="• Engenharia de Software"
+            android:id="@+id/engenhariaSoftware"
+            android:clickable="true" android:focusable="true" android:minHeight="48dp" android:background="?attr/selectableItemBackground"
             android:textColor="#333333"
             android:textSize="20sp"
             android:padding="12dp" />
@@ -75,6 +75,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="• Desenvolvimento Web"
+            android:id="@+id/desenvolvimentoWeb"
+            android:clickable="true" android:focusable="true" android:minHeight="48dp" android:background="?attr/selectableItemBackground"
             android:textColor="#333333"
             android:textSize="20sp"
             android:padding="12dp" />
@@ -83,6 +85,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="• Desenvolvimento Mobile"
+            android:id="@+id/desenvolvimentoMobile"
+            android:clickable="true" android:focusable="true" android:minHeight="48dp" android:background="?attr/selectableItemBackground"
             android:textColor="#333333"
             android:textSize="20sp"
             android:padding="12dp" />
@@ -91,6 +95,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="• Inteligência Artificial"
+            android:id="@+id/inteligenciaArtificial"
+            android:clickable="true" android:focusable="true" android:minHeight="48dp" android:background="?attr/selectableItemBackground"
             android:textColor="#333333"
             android:textSize="20sp"
             android:padding="12dp" />
@@ -98,4 +104,3 @@
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
